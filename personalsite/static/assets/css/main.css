@@ -74,7 +74,7 @@ input, select, textarea {
 
 ul.Unity{
 	display: inline-block;
-	text-align: right;
+	text-align: left;
 	float: left;
 }
 
