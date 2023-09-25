@@ -78,6 +78,17 @@ ul.Unity{
 	float: left;
 }
 
+.skill-list{
+	display: flex; 
+	justify-content: space-between;
+}
+
+.skillsHeader{
+	margin: 0;
+
+}
+
+
 /* Basic */
 
 	html {
