@@ -78,6 +78,11 @@ ul.Unity{
 	float: left;
 }
 
+ul.Unreal{
+	display: inline-block;
+	text-align: left;
+}
+
 .skill-list{
 	display: flex; 
 	justify-content: space-between;
