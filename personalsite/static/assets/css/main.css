@@ -86,6 +86,7 @@ ul.Unreal{
 ul.autods{
 	display: inline-block;
 	text-align: left;
+	float: left;
 }
 
 .skill-list{
@@ -104,7 +105,7 @@ ul.autods{
 	margin-right: 70px;
 }
 .auto-skills{
-	margin-right: 90px;
+	margin-right: 120px;
 }
 
 .modeling-skills{
