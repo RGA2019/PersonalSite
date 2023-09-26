@@ -87,6 +87,7 @@ ul.autods{
 	display: inline-block;
 	text-align: left;
 	float: left;
+	margin-right: 80px;
 }
 
 .skill-list{
