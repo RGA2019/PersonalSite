@@ -113,6 +113,13 @@ ul.autods{
 	margin-right: 90px;
 }
 
+th.tablehead{
+    background-color: transparent; /* Make the header background transparent */
+    color: #111; /* Set text color to a solid color (e.g., black) */
+    padding: 10px; /* Add some padding for spacing */
+  }
+
+
 
 /* Basic */
 
