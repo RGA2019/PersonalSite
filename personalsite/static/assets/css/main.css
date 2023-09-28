@@ -2644,7 +2644,7 @@ ul.autods{
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 1);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2679,7 +2679,7 @@ ul.autods{
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 1);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
