@@ -2419,7 +2419,7 @@ ul.autods{
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+/* 			border: solid 1px #efefef; */
 			border-left: 0;
 			border-right: 0;
 		}
