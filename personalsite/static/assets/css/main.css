@@ -2425,7 +2425,7 @@ ul.autods{
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+/* 				background-color: #f7f7f7; */
 			}
 
 		table td {
@@ -2434,7 +2434,7 @@ ul.autods{
 		}
 
 		table th {
-			color: #787878;
+			color: #fff;
 			font-size: 1.2em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
