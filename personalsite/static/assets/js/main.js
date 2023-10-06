@@ -98,31 +98,31 @@
 		// Lightbox gallery.
 			$window.on('load', function() {
 
-				// $('#two').poptrox({
-				// 	caption: function($a) { return $a.next('h3').text(); },
-				// 	overlayColor: '#2c2c2c',
-				// 	overlayOpacity: 0.85,
-				// 	popupCloserText: '',
-				// 	popupLoaderText: '',
-				// 	selector: '.work-item a.image',
-				// 	usePopupCaption: true,
-				// 	usePopupDefaultStyling: false,
-				// 	usePopupEasyClose: false,
-				// 	usePopupNav: true,
-				// 	windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				// });
+				$('#two').poptrox({
+					caption: function($a) { return $a.next('h3').text(); },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
 
-				    $('.gallery').poptrox({
- 				       		usePopupCaption: true, // Optional: Show captions
-        					popupLoaderText: '',   // Optional: Customize loading text
-        					popupCloserText: '',   // Optional: Customize close button text
-        					popupClass: 'poptrox-video-popup', // Optional: Add a custom class to the video pop-up
-        					onPopupLoad: function(popup) {
-            					// Customize the pop-up content here
-            					var videoUrl = popup.attr('href');
-            					var embedCode = '<iframe src="' + videoUrl + '"></iframe>';
-            					popup.html(embedCode);
-        }
+				    // $('.gallery').poptrox({
+ 				   //     		usePopupCaption: true, // Optional: Show captions
+        // 					popupLoaderText: '',   // Optional: Customize loading text
+        // 					popupCloserText: '',   // Optional: Customize close button text
+        // 					popupClass: 'poptrox-video-popup', // Optional: Add a custom class to the video pop-up
+        // 					onPopupLoad: function(popup) {
+        //     					// Customize the pop-up content here
+        //     					var videoUrl = popup.attr('href');
+        //     					var embedCode = '<iframe src="' + videoUrl + '"></iframe>';
+        //     					popup.html(embedCode);
+        // }
 
 			});
 
