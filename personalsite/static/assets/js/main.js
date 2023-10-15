@@ -123,7 +123,7 @@
         					popupClass: 'poptrox-video-popup', // Optional: Add a custom class to the video pop-up
         					onPopupLoad: function(popup) {
             					// Customize the pop-up content here
-            					var videoUrl = popup.attr('video src');
+            					var videoUrl = popup.attr('source src');
             					var embedCode = '<iframe src="' + videoUrl + '"></iframe>';
             					popup.html(embedCode);
 						windowMargin: (breakpoints.active('<=small') ? 0 : 50)
