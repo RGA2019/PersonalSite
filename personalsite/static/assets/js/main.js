@@ -112,7 +112,7 @@
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
-				    $('.gallery').poptrox({
+				    $('#two').poptrox({
  				       		usePopupCaption: true, // Optional: Show captions
         					popupLoaderText: '',   // Optional: Customize loading text
         					popupCloserText: '',   // Optional: Customize close button text
