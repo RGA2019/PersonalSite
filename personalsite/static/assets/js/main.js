@@ -113,15 +113,20 @@
 				// });
 
 				    $('#two').poptrox({
+					    	caption: function($a) { return $a.next('h3').text(); },
+						overlayColor: '#2c2c2c',
+					    	overlayOpacity: 0.85,
  				       		usePopupCaption: true, // Optional: Show captions
         					popupLoaderText: '',   // Optional: Customize loading text
         					popupCloserText: '',   // Optional: Customize close button text
+					    	selector: '.work-item a.image',
         					popupClass: 'poptrox-video-popup', // Optional: Add a custom class to the video pop-up
         					onPopupLoad: function(popup) {
             					// Customize the pop-up content here
             					var videoUrl = popup.attr('video src');
             					var embedCode = '<iframe src="' + videoUrl + '"></iframe>';
             					popup.html(embedCode);
+						windowMargin: (breakpoints.active('<=small') ? 0 : 50)
         }
 
 			});
