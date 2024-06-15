@@ -56,7 +56,7 @@ body {
 }
 
 mark {
-	background-color: gray;
+	background-color: transparent;
 	color: inherit;
 }
 
@@ -128,7 +128,7 @@ ul.autods{
 	}
 
 	body {
-		background: #fff;
+		background: linear-gradient(to right,#fff,#616161);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
