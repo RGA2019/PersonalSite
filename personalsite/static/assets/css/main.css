@@ -128,7 +128,7 @@ ul.autods{
 	}
 
 	body {
-		background: linear-gradient(to right,#fff,#616161);
+		background: linear-gradient(to right,#2f2f2f,#1f1f1f);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
